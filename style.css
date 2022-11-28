@@ -7,7 +7,7 @@
 }
 :root {
     --primary-color: #ff7613;
-    --text-clor: #727171;
+    --text-color: #727171;
 }
 html {
     font-size: 10px;
@@ -24,6 +24,34 @@ img {
 a {
     text-decoration: none;
     color: white;
+}
+.description {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.item_preTitle {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 300;
+}
+.item_title {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    margin:0.8rem 0;
+}
+.item_subtitle {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 400;
 }
 
 /* layouts */
@@ -49,6 +77,11 @@ a {
         gap: 7rem;
     }
 }
+.group-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
 
 /* profile */
 .profile_container {
@@ -57,4 +90,63 @@ a {
 }
 .profile_profileImg {
     max-width: 250px;
+}
+.profile_first_name {
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem, 8vw, 4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+.profile_last_name {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 15vw, 6rem);
+    text-transform: uppercase;
+    display: block;
+}
+.profile_title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.downloadBtn {
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.downloadBtn:hover {
+    color: var(--primary-color);
+}
+@media only screen and (max-width: 768px) {
+    .profile_container {
+        flex-direction: column;
+    }
+}
+
+/* expertise */
+.skill_list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+/* ref */
+.ref_item {
+    margin-top: 2rem;
+}
+.ref_name {
+    font-size: 1.6rem;
+}
+
+/* education */
+.edu_item {
+    margin-top: 2rem;
+}
+
+/* certification */
+.certification_item {
+    margin-top: 2rem;
 }
