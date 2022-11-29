@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
                         knowledge and to gain new
                         experiences and skills.
                     </p>
-                    <a class="downloadBtn" href="./cv.pdf" download="Resume.pdf">Download Btn</a>
+                    <a class="downloadBtn" href="./cv.pdf" download="Resume_FC.pdf">Download Resume</a>
                 </div>
             </div>
         </div>
@@ -89,15 +90,72 @@
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="courses">
                 <h3 class="title">Courses</h3>
+                <div class="course_item">
+                    <p class="item_preTitle">2019</p>
+                    <h4 class="item_title">...</h4>
+                    <p class="description">
+                        ...
+                    </p>
+                </div>
             </div>
-            <div>
+            <div class="interest">
                 <h3 class="title">Interest</h3>
+                <div class="interest_items">
+                    <div class="interest_item">
+                        <i data-feather="code"></i>
+                        <span>Code</span>
+                    </div>
+                    <div class="interest_item">
+                        <i data-feather="database"></i>
+                        <span>Database</span>
+                    </div>
+                    <div class="interest_item">
+                        <i data-feather="dribbble"></i>
+                        <span>Basketball</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="group-3"></div>
+        <hr>
+        <div class="group-3">
+            <div class="contact">
+                <h3 class="title">Contact</h3>
+                <div class="contact_info">
+                    <p class="description">
+                        Kraków, Poland
+                    </p>
+                    <p class="description">
+                        +48 505 871 450
+                    </p>
+                    <p class="description">
+                        filip.copija1@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="social">
+                <h3 class="title">Socials</h3>
+                <div class="social_items">
+                    <a href="#" target="_blank" class="social_item">
+                        <i data-feather="github"></i>
+                        <span>/fiicooxx</span>
+                    </a>
+                    <a href="#" target="_blank" class="social_item">
+                        <i data-feather="linkedin"></i>
+                        <span>/fiicooxx</span>
+                    </a>
+                    <a href="#" target="_blank" class="social_item">
+                        <i data-feather="instagram"></i>
+                        <span>/fii.coo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
+    <script>
+        feather.replace()
+    </script>
 </body>
 
 </html>
