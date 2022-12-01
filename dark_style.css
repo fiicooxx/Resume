@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 :root {
-	--primary-color: #86b673;
+	--primary-color: #699b56;
 	--text-color: #818181;
 }
 html {
@@ -14,8 +14,8 @@ html {
 }
 body {
 	font-family: Inter, sans-serif;
-	background-color: rgb(0, 0, 0);
-	color: white;
+	background-color: rgb(236, 233, 233);
+	color: rgb(0, 0, 0);
 }
 
 /* common styles */
@@ -24,7 +24,7 @@ img {
 }
 a {
 	text-decoration: none;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 .description {
 	margin-top: 1rem;
@@ -45,7 +45,7 @@ a {
 }
 .item_title {
 	font-size: 1.6rem;
-	color: white;
+	color: rgb(0, 0, 0);
 	font-weight: 500;
 	margin: 0.8rem 0;
 }
@@ -62,7 +62,7 @@ a {
 	margin: 0 auto;
 	display: grid;
 	padding: 5rem;
-	background: #070707;
+	background: #e0dddd9d;
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
 }
@@ -114,7 +114,7 @@ a {
 	max-width: 250px;
 }
 .profile_first_name {
-	color: white;
+	color: rgb(0, 0, 0);
 	font-weight: 200;
 	font-size: clamp(2rem, 8vw, 4rem);
 	text-transform: uppercase;
@@ -249,24 +249,28 @@ hr {
 }
 .lang_eng {
     width: 60px;
+    border: none;
     height: 35px;
 	margin-top: 1rem;
 	margin-left: 1rem;
 	gap: 0.5rem;
 	border-radius: 12px;
-	background-color: white;
+	background-color: rgb(100, 95, 95);
+    color: white;
 	font-family: Inter, sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
 }
 .lang_pl {
     width: 60px;
+    border: none;
     height: 35px;
 	margin-top: 1rem;
 	margin-left: 1rem;
 	gap: 0.5rem;
 	border-radius: 12px;
-	background-color: white;
+	background-color: rgb(100, 95, 95);
+    color: white;
 	font-family: Inter, sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
@@ -295,7 +299,7 @@ hr {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: rgb(100, 95, 95);
     -webkit-transition: .4s;
     transition: .4s;
 }
@@ -306,7 +310,7 @@ hr {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(27, 27, 27);
     -webkit-transition: .4s;
     transition: .4s;
 }
