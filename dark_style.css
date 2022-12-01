@@ -148,20 +148,11 @@ a {
 	}
 }
 
-/* Expertise */
+/* expertise */
 .skills_list {
 	margin-top: 1rem;
 	margin-left: 2rem;
 	line-height: 2;
-}
-
-/* Ref  */
-.ref_item {
-	margin-top: 2rem;
-}
-.ref_name {
-	font-size: 1.6rem;
-	font-weight: 700;
 }
 
 /* eduction */
@@ -178,11 +169,11 @@ a {
 	margin-top: 2rem;
 }
 
-/* awards */
-.awards_item {
+/* course */
+.course_item {
 	margin-top: 2rem;
 }
-/* Interests */
+/* interests */
 .interest_items {
 	margin-top: 2rem;
 	display: flex;

@@ -14,6 +14,17 @@ const experience = document.querySelector(".experience_title--js");
 const course = document.querySelector(".course_title--js");
 const interest = document.querySelector(".interest_title--js");
 const contact = document.querySelector(".contact_title--js");
+const driving = document.querySelector(".skill_driving--js");
+const edu_item_1 = document.querySelector(".edu_item_1--js");
+const edu_item_2 = document.querySelector(".edu_item_2--js");
+const exp_desc_1 = document.querySelector(".exp_desc_1--js");
+const course_item_1 = document.querySelector(".course_item_1--js");
+const interest_item_1 = document.querySelector(".interest_item_1--js");
+const interest_item_2= document.querySelector(".interest_item_2--js");
+const interest_item_3 = document.querySelector(".interest_item_3--js");
+const interest_item_4 = document.querySelector(".interest_item_4--js");
+
+
 
 // lagnuage switch functions
 function ENGLanguageChange()
@@ -22,27 +33,43 @@ function ENGLanguageChange()
     desc.innerHTML = "I am a first-year student of Applied Computer Science at the University of Economics and Computer Science in Krakow. My first priority is development and pursuit of goals. My ambitions drive me to cultivate the acquired knowledge and to gain new experiences and skills.";
     download.innerHTML = "Download Resume";
     skills.innerHTML = "Expertise";
-    reference.innerHTML = "Reference";
     eudcation.innerHTML = "Education";
     certification.innerHTML = "Certification";
     experience.innerHTML = "Experience";
     course.innerHTML = "Courses";
     interest.innerHTML = "Interest";
-    contact = "Contact";
+    contact.innerHTML = "Contact";
+    driving.innerHTML = "Driving license category B";
+    edu_item_1.innerHTML = "University class with a mathematical profile.";
+    edu_item_2.innerHTML = "Microsoft is the strategic partner of my University, so the curriculum is based on the development, database and server environments of Microsoft.";
+    exp_desc_1.innerHTML = "Bottling and warehouse worker";
+    course_item_1.innerHTML = "Two-semester The Point English course at B2 level";
+    interest_item_1.innerHTML = "Code";
+    interest_item_2.innerHTML = "Database"
+    interest_item_3.innerHTML = "Basketball";
+    interest_item_4.innerHTML = "Maths";
 }
 function PLLanguageChange()
 {
     desc_profile.innerHTML = "Student Informatyki Stosowanej";
-    desc.innerHTML = "opis";
+    desc.innerHTML = "Jestem studentem Informatyki Stosowanej w Wyższej Szkole Ekonomii i Informatyki w Krakowie. Moim głównym zamierzeniem jest rozwijanie swoich umiejętności, zdobywanie wiedzy oraz nowych doświadczeń. W projektach znajduje się prosta aplikacja WPF do zarządzania bazą danych i przykładowy skrypt do utworzenia bazy wraz z procedurami i funkcjami.";
     download.innerHTML = "Pobierz CV";
     skills.innerHTML = "Umiejętności";
-    reference.innerHTML = "Referencje";
     eudcation.innerHTML = "Edukacja";
     certification.innerHTML = "Certyfikaty";
     experience.innerHTML = "Doświadczenie";
     course.innerHTML = "Kursy";
     interest.innerHTML = "Zainteresowania";
-    contact = "Kontakt";
+    contact.innerHTML = "Kontakt";
+    driving.innerHTML = "Prawo jazdy kat. B";
+    edu_item_1.innerHTML = "Klasa uniwersytecka o profilu matematycznym.";
+    edu_item_2.innerHTML = "Partnerem strategicznym mojego kierunku jest Microsoft, więc program nauczania bazuje na środowiskach deweloperskich, bazodanowych i serwerowych Microsoft.";
+    exp_desc_1.innerHTML = "Pracownik Rozlewu, Magazynu";
+    course_item_1.innerHTML = "Dwusemestralny kurs The Point English na poziomie B2";
+    interest_item_1.innerHTML = "Code";
+    interest_item_2.innerHTML = "Database"
+    interest_item_3.innerHTML = "Koszykówka";
+    interest_item_4.innerHTML = "Matematyka";
 }
 
 // click event
