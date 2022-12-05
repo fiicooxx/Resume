@@ -23,8 +23,11 @@ const interest_item_1 = document.querySelector(".interest_item_1--js");
 const interest_item_2= document.querySelector(".interest_item_2--js");
 const interest_item_3 = document.querySelector(".interest_item_3--js");
 const interest_item_4 = document.querySelector(".interest_item_4--js");
-
-
+const language_title = document.querySelector(".language_title--js");
+const lang_title_01 = document.querySelector(".lang_title_01--js");
+const lang_title_02 = document.querySelector(".lang_title_02--js");
+const lang_desc_1 = document.querySelector(".lang_desc_1--js");
+const lang_desc_2 = document.querySelector(".lang_desc_2--js");
 
 // lagnuage switch functions
 function ENGLanguageChange()
@@ -48,6 +51,11 @@ function ENGLanguageChange()
     interest_item_2.innerHTML = "Database"
     interest_item_3.innerHTML = "Basketball";
     interest_item_4.innerHTML = "Maths";
+    language_title.innerHTML = "Languages";
+    lang_title_01.innerHTML = "English";
+    lang_title_02.innerHTML = "Polish";
+    lang_desc_1.innerHTML = "Advanced";
+    lang_desc_2.innerHTML = "Native";
 }
 function PLLanguageChange()
 {
@@ -70,6 +78,11 @@ function PLLanguageChange()
     interest_item_2.innerHTML = "Database"
     interest_item_3.innerHTML = "Koszykówka";
     interest_item_4.innerHTML = "Matematyka";
+    language_title.innerHTML = "Języki";
+    lang_title_01.innerHTML = "Angielski";
+    lang_title_02.innerHTML = "Polski";
+    lang_desc_1.innerHTML = "Zaawansowany";
+    lang_desc_2.innerHTML = "Ojczysty";
 }
 
 // click event
