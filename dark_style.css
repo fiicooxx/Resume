@@ -165,7 +165,7 @@ a {
 	margin-top: 2rem;
 }
 /* exp */
-.exp_item {
+.language_item {
 	margin-top: 2rem;
 }
 
@@ -227,44 +227,6 @@ hr {
 	hr {
 		margin: 0 auto;
 	}
-}
-
-/* lang */
-.lang {
-	position: relative;
-	left: 250px;
-}
-.lang_btn:hover {
-	background-color: var(--primary-color);
-	transition-delay: 50ms;
-}
-.lang_eng {
-    width: 60px;
-    border: none;
-    height: 35px;
-	margin-top: 1rem;
-	margin-left: 1rem;
-	gap: 0.5rem;
-	border-radius: 12px;
-	background-color: rgb(100, 95, 95);
-    color: white;
-	font-family: Inter, sans-serif;
-	font-size: 1.5rem;
-	font-weight: 700;
-}
-.lang_pl {
-    width: 60px;
-    border: none;
-    height: 35px;
-	margin-top: 1rem;
-	margin-left: 1rem;
-	gap: 0.5rem;
-	border-radius: 12px;
-	background-color: rgb(100, 95, 95);
-    color: white;
-	font-family: Inter, sans-serif;
-	font-size: 1.5rem;
-	font-weight: 700;
 }
 
 /* dark mode */
